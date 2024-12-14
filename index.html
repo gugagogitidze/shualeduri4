@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Modak&family=Mogra&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gugsonsss</title>
+  </head>
+
+  <body id="bodystyle" class="lightbody">
+    <header id="darkheader" class="lightheader">
+      <span>devfinder</span>
+      <div id="mode" class="light">
+        <h1 id="changemode" class="lightmode">DARK</h1>
+        <i id="darkmoon" class="fa-solid fa-moon"></i>
+      </div>
+    </header>
+    <form id="Searchform" class="searchbar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <label for="searchinp"></label>
+      <input
+        class="searchinplight"
+        id="searchinp"
+        type="text"
+        placeholder="Search GitHub username…"
+        required
+      />
+      <button class="btn" id="btn" type="submit">Search</button>
+    </form>
+
+    <div id="profile" class="profilelight">
+      <div class="imgdiv">
+        <img
+          id="avatar"
+          src="./images/66253257e7944d0a8daa4ffd93505228 (1).png"
+          alt=""
+        />
+      </div>
+      <div class="infodiv">
+        <div class="username-data">
+          <div class="imgdiv2">
+            <img
+              id="avatar2"
+              src="./66253257e7944d0a8daa4ffd93505228.png"
+              alt=""
+            />
+          </div>
+          <div class="mobile">
+            <h1 id="usernamecolor">The Octocat</h1>
+            <p>Joined 10 Jan 2024</p>
+          </div>
+        </div>
+        <div class="idname">
+          <a id="acclink" href="">@octocat</a>
+          <p id="accbio">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            odio. Quisque volutpat mattis eros.
+          </p>
+        </div>
+        <div id="userstats" class="userstatslight">
+          <div id="stats" class="Repos stats">
+            <p id="Repos" class="userstatcolors">Repos</p>
+            <span id="Reposnum" class="userstatcolors2">10</span>
+          </div>
+          <div class="Followers stats">
+            <p id="Followers" class="userstatcolors">Followers</p>
+            <span id="Followersnum" class="userstatcolors2">1010</span>
+          </div>
+          <div class="Following stats">
+            <p id="Following" class="userstatcolors">Following</p>
+            <span id="Followingnum" class="userstatcolors2">10</span>
+          </div>
+        </div>
+        <div class="diffplatlinks">
+          <div class="side1">
+            <div class="location linkstyle">
+              <i id="locid" class="fa-solid fa-location-dot"></i>
+              <a id="locationid" href="">San Francisco</a>
+            </div>
+            <div class="chain linkstyle">
+              <i id="lkid" class="fa-solid fa-link"></i>
+              <a id="idblog" href="">https://github.blog</a>
+            </div>
+          </div>
+          <div class="side2">
+            <div class="twitter">
+              <i id="twid" class="fa-brands fa-twitter"></i>
+              <a id="twitterid" href="">Not Available</a>
+            </div>
+            <div class="build">
+              <i id="bildid" class="fa-solid fa-building"></i>
+              <a id="githubuser" href="">@github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
